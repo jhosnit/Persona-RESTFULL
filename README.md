@@ -1,4 +1,4 @@
-# API REST - Registro de Personas
+# Recurso Persona RESTFULL
 
 API REST que permite administrar un registro de personas, con operaciones para consultar, agregar, modificar y eliminar cada registro.
 
