@@ -9,3 +9,5 @@ API REST que permite administrar un registro de personas, con operaciones para c
 - POST /rest/personas/add
 - PUT /rest/personas/update
 - DELETE /rest/personas/delete/{id}
+
+Nota: actualizar el maven antes de ejecutar
