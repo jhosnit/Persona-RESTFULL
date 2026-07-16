@@ -30,11 +30,11 @@ public class PersonaService {
 	}
 
 	public boolean aplicaCredito(String cedula) {
-		Persona persona = personaDAO.getByCedula(cedula);
-		if (persona.getEdad() >= 18) {
-			return true;
-		}
-		return false;
+		Persona p = personaDAO.getByCedula(cedula);
+	    if (p != null && p.getEdad() >= 18) {
+	        return true; 
+	    }
+	    return false;
 	}
 	
 	public List<Persona> listar(){
